@@ -2,10 +2,10 @@
 
 <% @attendees.each do |attendee| %>
     <div>
-      <%= attendee.name %>
-      <%= attendee.company %>
-      <%= attendee.email %>
-      <%= attendee.registered %>
+    <strong> Name: </strong>  <%= attendee.name %> <br>
+    <strong> Company: </strong> <%= attendee.company %> <br>
+    <strong> Email: </strong> <%= attendee.email %> <br>
+    <strong> Date Registered: </strong> <%= attendee.registered %>
 
     </div>
   <br>

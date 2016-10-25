@@ -2,13 +2,13 @@
 
 <% @talks.each do |talk| %>
     <div>
-      <%= talk.title %>
-      <%= talk.abstract %>
-      <%= talk.room %>
-      <%= talk.speaker_name %>
-      <%= talk.company %>
-      <%= talk.email %>
-      <%= talk.bio %>
+    <strong>Title: </strong>  <%= talk.title %> <br>
+      <strong> Abstract: </strong><%= talk.abstract %><br>
+      <strong> Room Number: </strong> <%= talk.room %><br>
+      <strong>Speaker Name: </strong> <%= talk.speaker_name %><br>
+      <strong> Speaker Company Name: </strong> <%= talk.company %><br>
+      <strong> Speaker Email: </strong> <%= talk.email %><br>
+      <strong> Speaker Bio </strong> <%= talk.bio %>
     </div>
   <br>
 <% end %>
