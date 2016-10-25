@@ -5,6 +5,7 @@ Build a RESTful application that keeps track of talks and attendees at a confere
 # Technologies Utilized
 -Ruby on Rails- speed and efficiency when building out routing
 -Postgresql DB- quick and easy set up
+-Running on Puma server
 
 -Challenges & Thought Process
 Even though views were not necessary Rails makes it quick and easy to test the templating, and there was a small, manageable amount of seed data.
@@ -17,25 +18,12 @@ Also, if I had time to pursue the bonus and add a POST route form to add an atte
 
 I know that making views and re-formatting the data were outside of the specifications but it fit my work flow and time constraints here. I also aim to work on a full stack team so I wanted to show an MVP for formatting the front end as well.
 
+If I were to curl the routes to test a get request to view all of the talks, I would run:
+
+curl http://localhost:3000/talks
+
+It would return the data in it's rendered HTML instead of JSON in my current format.
+
+
 # Work Flow
-
-
-
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I made seven commits over the course of the hour, detailing the stages where I built out and connected the controller, model, and then views (the indexes for the attendees and talks.)
