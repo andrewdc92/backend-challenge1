@@ -21,9 +21,14 @@ I know that making views and re-formatting the data were outside of the specific
 If I were to curl the routes to test a get request to view all of the talks, I would run:
 
 curl http://localhost:3000/talks
+curl http://localhost:3000/attendees
 
 It would return the data in it's rendered HTML instead of JSON in my current format.
 
 
 # Work Flow
 I made seven commits over the course of the hour, detailing the stages where I built out and connected the controller, model, and then views (the indexes for the attendees and talks.)
+
+# Changes from Rubric
+-List out specific endpoints
+-Connect the coding challenge to GACon by mentioning attendee privacy, accuracy of timestamps for users from various timezones, or some other thoughtful feature
