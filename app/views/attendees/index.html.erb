@@ -3,6 +3,10 @@
 <% @attendees.each do |attendee| %>
     <div>
       <%= attendee.name %>
+      <%= attendee.company %>
+      <%= attendee.email %>
+      <%= attendee.registered %>
+
     </div>
   <br>
 <% end %>
