@@ -1,0 +1,14 @@
+<h1> Index of all talks hosted within the conference, along with featured speaker(s) </h1>
+
+<% @talks.each do |talk| %>
+    <div>
+      <%= talk.title %>
+      <%= talk.abstract %>
+      <%= talk.room %>
+      <%= talk.speaker_name %>
+      <%= talk.company %>
+      <%= talk.email %>
+      <%= talk.bio %>
+    </div>
+  <br>
+<% end %>
